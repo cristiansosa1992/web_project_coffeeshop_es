@@ -74,13 +74,90 @@
 
     <main>
 
-      <main class="content">
-        <!-- contenido principal -->
-      </main>
-      <!-- Sección Reservar -->
-      <section id="reservar"></section>
-      <!-- Sección Contactos -->
-      <section id="contactos"> </section>
+     <fieldset class="reservation">
+     <legend class="main-title">Reservar una mesa</legend>
+
+    <form class="reservation-form" id="reservar">
+      <label class="main-label" for="nombre">Nombre *</label>
+    <input
+      class="input"
+      type="text"
+      placeholder="Nombre"
+      id="nombre"
+      name="nombre"
+      required
+    >
+
+    <label class="main-label" for="numero-comensales">Número de comensales *</label>
+    <input
+      class="input"
+      type="number"
+      placeholder="1-8"
+      min="1"
+      max="8"
+      id="numero-comensales"
+      name="numero-comensales"
+      required
+    >
+
+    <label class="main-label" for="fecha-hora">Fecha y hora *</label>
+    <input
+      class="input"
+      type="datetime-local"
+      id="fecha-hora"
+      name="fecha-hora"
+      required
+    >
+
+    <label class="main-label" for="email">Tu correo electrónico *</label>
+    <input
+      class="input"
+      placeholder="email@email.com"
+      type="email"
+      id="email"
+      name="email"
+      required
+    >
+
+    <button class="submit-button" type="submit">Reservar</button>
+
+   <div class="confirmation">
+
+  <input class="boton-check"
+    type="checkbox"
+    id="confirmacion"
+    name="confirmacion"
+    value="confirmacion_si"
+    required
+  />
+  <label class="main-label" for="confirmacion">
+    Acepto los términos de uso
+  </label>
+</div>
+
+  </form>
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
 
 

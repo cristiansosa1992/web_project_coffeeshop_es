@@ -1,0 +1,100 @@
+main {
+  min-height: 100vh;
+  background-color: #ffd6c5;
+  background-image: url("../img/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+}
+legend {
+  padding: 0;
+}
+
+.reservation {
+  border: none;
+  max-width: 385px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reservation-form {
+  display: flex;
+  flex-direction: column;
+}
+.main-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin-bottom: 80px;
+}
+
+.main-label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+* .input {
+  border-radius: 4px;
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 32px;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  border-radius: 4px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #e96e3a;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+}
+.submit-button:hover {
+  opacity: 0.7;
+}
+
+.confirmation {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmation input[type="checkbox"] {
+  background-color: #e96e3a;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.confirmation input[type="checkbox"]:checked {
+  background-image: url("../img/check.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 14px;
+}
