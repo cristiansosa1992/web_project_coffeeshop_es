@@ -1,0 +1,79 @@
+.footer {
+  background-color: #d35722;
+  padding: 60px 80px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 20px 20px;
+}
+
+.circulo {
+  background: #e96e3a;
+  height: 340px;
+  width: 340px;
+  border-radius: 50%;
+  position: absolute;
+
+  top: -160px;
+  left: -184px;
+
+  z-index: 0;
+}
+
+.footer-top,
+.footer-copy {
+  position: relative;
+  z-index: 1;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 160px; /* ayuda a que no se deforme */
+}
+
+.redes-title {
+  color: white;
+  font-family: "Inter", sans-serif; /* OJO comillas rectas */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 20px 0;
+}
+
+.red-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  text-decoration: none;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.redes-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.footer-copy {
+  margin: 60px 0 0 0;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.red-item:hover {
+  color: #ffd6c5;
+}

@@ -1,6 +1,7 @@
 @import url("./normalize.css");
 @import url("./styleheader.css");
 @import url("./stylemain.css");
+@import url("./stylefooter.css");
 
 body {
   margin: 0 auto;
