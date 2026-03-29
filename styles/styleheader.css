@@ -131,3 +131,11 @@ body {
   align-content: end;
   padding-right: 54px;
 }
+
+
+@media screen and (max-width: 1384px) {
+  .header-image{
+    width: 40%;
+    height: auto;
+  }
+}
